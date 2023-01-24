@@ -2,9 +2,11 @@ const mongoose = require('mongoose')
 const blogSchema = mongoose.Schema({
     title: String,
     image: String,
-    body: String,
-    date: String
+    message: String,
+    highlight:String,
+    aurthor:String,
+    date:String
 });
 
 const Blog = mongoose.model('Blogs', blogSchema)
-module.exports = Blog
+module.exports = Blog;

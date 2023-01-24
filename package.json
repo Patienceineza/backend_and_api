@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./source/index.js",
-    "start:dev":"nodemon ./source/index.js"
-
-  
+    "start:dev": "nodemon ./source/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.4"
   },
   "devDependencies": {
