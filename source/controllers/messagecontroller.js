@@ -6,7 +6,7 @@ const messages = require('../models/message')
 
 const getmessages =  async(req, res)=> {
     const getmessage = await messages.find()
-    res.status(200).json(getmessage)
+    res.status(200).json({getmessage})
 }
 const getonemessage =async(req,res)=>{
     try {
