@@ -12,7 +12,7 @@ const getUsers =  async(req, res)=> {
 }
 const getoneuser =async(req,res)=>{
     try {
-        const id = req.params.id
+        const email = req.params.email
        const user= await users.findOne({
             _id: id
         })
